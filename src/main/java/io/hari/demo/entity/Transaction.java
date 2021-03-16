@@ -30,6 +30,8 @@ public class Transaction extends BaseEntity {
 
     //other metadata
 
+    //below all code move to txn service
+
     @Transient
     Map<Long, List<GiveOrTakeView>> takeOrGiveMap = new HashMap<>();//2
 
